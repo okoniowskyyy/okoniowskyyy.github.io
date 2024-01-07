@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Mateusz">
-    <meta name="description" content="moja pierwsza strona internetowa">        
+    <meta name="description" content="DNS">        
 </head>
 <body>
     <h1>Learn DNS with me!</h1>
