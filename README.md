@@ -11,10 +11,11 @@
         <li>
             <h2>Czym jest DNS?</h2>
             <p><strong>DNS (Domain Name System)</strong> - system serwerów, protokół komunikacyjny i usługa konwertująca adresy znane użytkownikom Internetu na adresy zrozumiałe dla urządzeń tworzących sieć komputerową. Usługa DNS jest powiązana z portem TCP/UDP 53.</p>
+            <img src="pictures/DNS3.png" alt="">
             <p>Adresy DNS składają się z domen internetowych rozdzielonych kropkami. W ten sposób możliwe jest budowanie hierarchii nazw, które porządkują Internet.</p>
             <hr>
             <h2>DNS oparty jest na modelu drzewa odwróconego.</h2>
-            #img 
+            <img src="pictures/DNS4.png" alt="">
             <hr>
         </li>
         <li>
@@ -24,6 +25,9 @@
                 <li><strong>Rekurencyjne -</strong> zmusza serwer do znalezienia wymaganej informacji lub zwrócenia wiadomości o błędzie. Ogólną zasadą jest, że zapytania od resolwera (program, który potrafi wysyłać zapytania do serwerów DNS) do serwera są typu rekurencyjnego, czyli resolwer oczekuje podania przez serwer adresu IP poszukiwanego hosta. Wykonywanie zapytań rekurencyjnych pozwala wszystkim uczestniczącym serwerom zapamiętać odwzorowanie (ang. DNS caching), co podnosi efektywność systemu.</li>
                 <li><strong>Iteracyjne -</strong> wymaga od serwera jedynie podania najlepszej dostępnej mu w danej chwili odpowiedzi, przy czym nie musi on łączyć się jeszcze z innymi serwerami. Zapytania wysyłane pomiędzy serwerami są iteracyjne, przykładowo wiarygodny serwer domeny org nie musi znać adresu IP komputera www.pl.wikipedia.org, podaje więc najlepszą znaną mu w tej chwili odpowiedź, czyli adresy serwerów autorytatywnych dla domeny wikipedia.org</li>
             </ul>
+            <div align="center">
+                <img src="pictures/DNS1.png" alt="">
+            </div>
             <hr>
         </li>
         <li>
@@ -48,6 +52,9 @@
                 <li><strong>rekord SOA lub rekord adresu startowego uwierzytelnienia -</strong>  ustala serwer DNS dostarczający autorytatywne informacje o domenie internetowej.</li>
                 <li><strong>rekord TXT -</strong> pozwala dołączyć dowolny tekst do rekordu DNS.</li>
             </ul>
+            <div align="center">
+                <img src="pictures/DNS2.jpg" alt="">
+            </div>
             <hr>
         </li>
         <li>
